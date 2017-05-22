@@ -1,10 +1,13 @@
 package creatures;
 
+import frameWork.Factions;
+
 abstract class Boss extends Creatures {
 
-	public Boss(int x, int y, String image) {
-		super(x, y, image);
-		// TODO Auto-generated constructor stub
+	protected Boss(int x, int y, String image, int hp, int attack, Factions faction) {
+		super(x, y, image, hp, attack, faction);
+		
 	}
+
 
 }

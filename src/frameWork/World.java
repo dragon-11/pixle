@@ -3,10 +3,9 @@ package frameWork;
 import java.util.ArrayList;
 import java.util.List;
 
-import blocks.Block;
-import creatures.Creatures;
+import generator.BiomGenerator;
 
 public class World {
-	  private List<Generator<Block>> BlockGenerator = new ArrayList<>();
-	  private List<Generator<Creatures>> CreatureGenerator = new ArrayList<>();
+	 private List<List<BiomGenerator>> biomList = new ArrayList();
+	 
 }
